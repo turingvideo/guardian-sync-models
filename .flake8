@@ -1,0 +1,30 @@
+[flake8]
+ignore =
+    # D203: 1 blank line required before class docstring. Conflict with D211.
+    D203,
+    # W503: line break occurred before a binary operator
+    W503,
+    # E501: line too long (> 79 characters)
+    E501
+
+exclude =
+    venv,
+    .git,
+    __pycache__,
+    docs/source/conf.py,
+    build,
+    dist,
+    manage.py
+
+max-complexity = 15
+max-line-length = 127
+
+per-file-ignores =
+    # imported but unused
+    __init__.py: F401
+
+# flake8-expandtab
+tab-width = 4
+
+statistics = 1
+
