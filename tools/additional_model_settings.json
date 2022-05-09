@@ -1,0 +1,8 @@
+[
+    {
+        "MODEL_NAME": "deep_sort",
+        "MODEL_VERSION": "v3",
+        "MODEL_PATH": "assets/deep_tracker/small-part-mars.pb",
+        "MODEL_HASH": "5108dbe44d612a8163073cbb2514a168"
+    }
+]

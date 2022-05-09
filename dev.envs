@@ -1,1 +1,3 @@
-export DATABASE_URL=postgresql://gd:gd@127.0.0.1:5432/gd
+export NEXTCLOUD_URL=https://shared.turingvideo.cn/
+export NEXTCLOUD_USERNAME=lxs-turing
+export NEXTCLOUD_PASSWORD=fzpPe-pSsfN-zABMp-BgjPs-5d7tQ

@@ -1,0 +1,402 @@
+[
+    {
+        "MODEL_NAME": "object_detector",
+        "MODEL_VERSION": "v0",
+        "MODEL_PATH": "assets/d_graph.pb"
+    },
+    {
+        "MODEL_NAME": "object_detector",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/d_graph_fcnn.pb"
+    },
+    {
+        "MODEL_NAME": "object_detector",
+        "MODEL_VERSION": "v2",
+        "MODEL_PATH": "assets/yolov4_object_detector_v2.zip"
+    },
+    {
+        "MODEL_NAME": "object_detector",
+        "MODEL_VERSION": "v3",
+        "MODEL_PATH": "assets/yolov4_object_detector_v3.zip"
+    },
+    {
+        "MODEL_NAME": "human_detector",
+        "MODEL_VERSION": "v0",
+        "MODEL_PATH": "assets/retinanet_resnet50_retrain_model.pb"
+    },
+    {
+        "MODEL_NAME": "human_detector",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/sagemaker-tf-object-detection-api-gpu-2019-12-06-17-09-04-193-61424.pb"
+    },
+    {
+        "MODEL_NAME": "human_detector",
+        "MODEL_VERSION": "v2",
+        "MODEL_PATH": "assets/tf-object-detection-api-gpu-ssd-resnet50-2020-10-16-12-27-24-654.pb"
+    },
+    {
+        "MODEL_NAME": "human_detector",
+        "MODEL_VERSION": "v3",
+        "MODEL_PATH": "assets/yolov4_human_detector_v3.zip"
+    },
+    {
+        "MODEL_NAME": "human_detector",
+        "MODEL_VERSION": "v4",
+        "MODEL_PATH": "assets/yolov4_human_detector_v4.zip"
+    },
+    {
+        "MODEL_NAME": "human_detector",
+        "MODEL_VERSION": "v5",
+        "MODEL_PATH": "assets/yolov4_human_detector_v5.zip"
+    },
+    {
+        "MODEL_NAME": "face_detector",
+        "MODEL_VERSION": "v0",
+        "MODEL_PATH": "assets/face_det_model.pb"
+    },
+    {
+        "MODEL_NAME": "fire_detector",
+        "MODEL_VERSION": "v0",
+        "MODEL_PATH": "assets/fire_det_model_v0_ssd.pb"
+    },
+    {
+        "MODEL_NAME": "fire_detector",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/yolov4_fire_detector_v1.zip"
+    },
+    {
+        "MODEL_NAME": "zawu_classifier",
+        "MODEL_VERSION": "v0",
+        "MODEL_PATH": "assets/zawu_cls_model.pb"
+    },
+    {
+        "MODEL_NAME": "zawu_classifier",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/zawu_cls_model_v1.pb"
+    },
+    {
+        "MODEL_NAME": "zawu_classifier",
+        "MODEL_VERSION": "v2",
+        "MODEL_PATH": "assets/zawu_cls_model_v2.pb"
+    },
+    {
+        "MODEL_NAME": "zawu_classifier",
+        "MODEL_VERSION": "v4",
+        "MODEL_PATH": "assets/zawu_cls_model_v4.pb"
+    },
+    {
+        "MODEL_NAME": "zawu_classifier",
+        "MODEL_VERSION": "v5",
+        "MODEL_PATH": "assets/zawu_cls_model_v5.pb"
+    },
+    {
+        "MODEL_NAME": "zawu_classifier",
+        "MODEL_VERSION": "v6",
+        "MODEL_PATH": "assets/zawu_cls_model_v6.pb"
+    },
+    {
+        "MODEL_NAME": "zawu_classifier",
+        "MODEL_VERSION": "v7",
+        "MODEL_PATH": "assets/zawu_cls_model_v7.pb"
+    },
+    {
+        "MODEL_NAME": "zawu_classifier",
+        "MODEL_VERSION": "v8",
+        "MODEL_PATH": "assets/zawu_cls_model_v8.pb"
+    },
+    {
+        "MODEL_NAME": "zawu_classifier",
+        "MODEL_VERSION": "v10",
+        "MODEL_PATH": "assets/zawu_cls_model_v10.pb"
+    },
+    {
+        "MODEL_NAME": "zawu_classifier",
+        "MODEL_VERSION": "v11",
+        "MODEL_PATH": "assets/zawu_cls_model_v11.pb"
+    },
+    {
+        "MODEL_NAME": "uniform_classifier",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/uniform_cls_model_v1.pb"
+    },
+    {
+        "MODEL_NAME": "uniform_classifier",
+        "MODEL_VERSION": "v2",
+        "MODEL_PATH": "assets/uniform_cls_model_v2.pb"
+    },
+    {
+        "MODEL_NAME": "escalator_light_classifier",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/escalator_light_cls_model_v1.pb"
+    },
+    {
+        "MODEL_NAME": "escalator_light_classifier",
+        "MODEL_VERSION": "v2",
+        "MODEL_PATH": "assets/escalator_light_cls_model_v2.pb"
+    },
+    {
+        "MODEL_NAME": "escalator_maintenance_detector",
+        "MODEL_VERSION": "v0",
+        "MODEL_PATH": "assets/escalator_maintenance_det_model_v0_ssd.pb"
+    },
+    {
+        "MODEL_NAME": "escalator_maintenance_detector",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/yolov4_em_detector_v1.zip"
+    },
+    {
+        "MODEL_NAME": "cargo_detector",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/yolov4-cargo-detector-v1.zip"
+    },
+    {
+        "MODEL_NAME": "cargo_detector",
+        "MODEL_VERSION": "v2",
+        "MODEL_PATH": "assets/yolov4-cargo-detector-v2.zip"
+    },
+    {
+        "MODEL_NAME": "cargo_detector",
+        "MODEL_VERSION": "v3",
+        "MODEL_PATH": "assets/yolov4-cargo-detector-v3.zip"
+    },
+    {
+        "MODEL_NAME": "cargo_detector",
+        "MODEL_VERSION": "v4",
+        "MODEL_PATH": "assets/yolov4-cargo-detector-v4.zip"
+    },
+    {
+        "MODEL_NAME": "cargo_detector",
+        "MODEL_VERSION": "v5",
+        "MODEL_PATH": "assets/yolov4-cargo-detector-v5.zip"
+    },
+    {
+        "MODEL_NAME": "falling_object_track_classifier",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/falling_parameters.model"
+    },
+    {
+        "MODEL_NAME": "falling_object_type_classifier",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/falling_cls_model.pb"
+    },
+    {
+        "MODEL_NAME": "petroChina_detector",
+        "MODEL_VERSION": "v0",
+        "MODEL_PATH": "assets/petro_china_det_model_v0_ssd.pb"
+    },
+    {
+        "MODEL_NAME": "general_ocr_detector",
+        "MODEL_VERSION": "v0",
+        "MODEL_PATH": "assets/ocr_yolo_detector.pb"
+    },
+    {
+        "MODEL_NAME": "general_ocr_recognitor",
+        "MODEL_VERSION": "v0",
+        "MODEL_PATH": "assets/ocr_and_alarm_recognition.pb"
+    },
+    {
+        "MODEL_NAME": "general_ocr_recognitor",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/zsy_digit_recognition.pb"
+    },
+    {
+        "MODEL_NAME": "general_ocr_recognitor",
+        "MODEL_VERSION": "v2",
+        "MODEL_PATH": "assets/dcd_lines_recognition.pb"
+    },
+    {
+        "MODEL_NAME": "general_ocr_recognitor",
+        "MODEL_VERSION": "v3",
+        "MODEL_PATH": "assets/dcd_lines_recognition_1117.pb"
+    },
+    {
+        "MODEL_NAME": "general_ocr_recognitor",
+        "MODEL_VERSION": "v4",
+        "MODEL_PATH": "assets/dcd_lines_recognition_1117_2.pb"
+    },
+    {
+        "MODEL_NAME": "general_ocr_recognitor",
+        "MODEL_VERSION": "v5",
+        "MODEL_PATH": "assets/dcd_lines_recognition_1119.pb"
+    },
+    {
+        "MODEL_NAME": "general_ocr_recognitor",
+        "MODEL_VERSION": "v6",
+        "MODEL_PATH": "assets/dcd_lines_recognition_1120.pb"
+    },
+    {
+        "MODEL_NAME": "general_ocr_recognitor",
+        "MODEL_VERSION": "v7",
+        "MODEL_PATH": "assets/dcd_lines_recognition_1122.pb"
+    },
+    {
+        "MODEL_NAME": "general_ocr_recognitor",
+        "MODEL_VERSION": "v8",
+        "MODEL_PATH": "assets/dcd_lines_recognition_1123.pb"
+    },
+    {
+        "MODEL_NAME": "general_ocr_recognitor",
+        "MODEL_VERSION": "v9",
+        "MODEL_PATH": "assets/dcd_lines_recognition_1127.pb"
+    },
+    {
+        "MODEL_NAME": "general_ocr_recognitor",
+        "MODEL_VERSION": "v10",
+        "MODEL_PATH": "assets/dcd_lines_recognition_1130.pb"
+    },
+    {
+        "MODEL_NAME": "general_ocr_recognitor",
+        "MODEL_VERSION": "v11",
+        "MODEL_PATH": "assets/dcd_lines_recognition_1201.pb"
+    },
+    {
+        "MODEL_NAME": "general_ocr_recognitor",
+        "MODEL_VERSION": "v12",
+        "MODEL_PATH": "assets/dcd_lines_recognition_1202.pb"
+    },
+    {
+        "MODEL_NAME": "general_ocr_recognitor",
+        "MODEL_VERSION": "v13",
+        "MODEL_PATH": "assets/dcd_lines_recognition_1204.pb"
+    },
+    {
+        "MODEL_NAME": "long_term_door_status_classifier",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/long_term_door_status_model_v1.pb"
+    },
+    {
+        "MODEL_NAME": "battery_bicycle_detector",
+        "MODEL_VERSION": "v0",
+        "MODEL_PATH": "assets/yolov4-battery-bicycle-detector-v0.zip"
+    },
+    {
+        "MODEL_NAME": "lying_down_classifier",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/lying_down_classifier_model_v1.pb"
+    },
+    {
+        "MODEL_NAME": "lying_down_classifier",
+        "MODEL_VERSION": "v2",
+        "MODEL_PATH": "assets/lying_down_classifier_model_v2.pb"
+    },
+    {
+        "MODEL_NAME": "skeleton2D_detector",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/skeleton2D_detector_model_v1.pb"
+    },
+    {
+        "MODEL_NAME": "sleep_phone_detector",
+        "MODEL_VERSION": "v0",
+        "MODEL_PATH": "assets/yolov4_sleep_play-phone_detector_v0.zip"
+    },
+    {
+        "MODEL_NAME": "sleep_phone_detector",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/yolov4_sleep_play-phone_detector_v1.zip"
+    },
+    {
+        "MODEL_NAME": "deep_sort",
+        "MODEL_VERSION": "v3",
+        "MODEL_PATH": "assets/deep_tracker/small-part-mars.pb"
+    },
+    {
+        "MODEL_NAME": "deep_sort",
+        "MODEL_VERSION": "v2",
+        "MODEL_PATH": "assets/deep_tracker/big-part-mars.pb"
+    },
+    {
+        "MODEL_NAME": "deep_sort",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/deep_tracker/mars-big128.pb"
+    },
+    {
+        "MODEL_NAME": "deep_sort",
+        "MODEL_VERSION": "v0",
+        "MODEL_PATH": "assets/deep_tracker/mars-small128.pb"
+    },
+    {
+        "MODEL_NAME": "fall_slip_video_classifier",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/fall_slip_video_classiffier_v1.pb"
+    },
+    {
+        "MODEL_NAME": "fall_slip_video_classifier",
+        "MODEL_VERSION": "v2",
+        "MODEL_PATH": "assets/fall_slip_video_classifier_v2.pb"
+    },
+    {
+        "MODEL_NAME": "face_mask_detector",
+        "MODEL_VERSION": "v0",
+        "MODEL_PATH": "assets/yolov4_face_mask_detector_v0.zip"
+    },
+    {
+        "MODEL_NAME": "face_mask_detector",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/yolov4_face_mask_detector_v1.zip"
+    },
+    {
+        "MODEL_NAME": "face_mask_detector",
+        "MODEL_VERSION": "v2",
+        "MODEL_PATH": "assets/yolov4_face_mask_detector_v2.zip"
+    },
+    {
+        "MODEL_NAME": "face_mask_detector",
+        "MODEL_VERSION": "v3",
+        "MODEL_PATH": "assets/yolov4_face_mask_detector_v3.zip"
+    },
+    {
+        "MODEL_NAME": "face_mask_detector",
+        "MODEL_VERSION": "v4",
+        "MODEL_PATH": "assets/yolov4_face_mask_detector_v4.zip"
+    },
+    {
+        "MODEL_NAME": "trashcan_classifier",
+        "MODEL_VERSION": "v1",
+        "MODEL_PATH": "assets/trashcan_cls_v1.pb"
+    },
+    {
+        "MODEL_NAME": "trashcan_classifier",
+        "MODEL_VERSION": "v2",
+        "MODEL_PATH": "assets/trashcan_cls_v2.pb"
+    },
+    {
+        "MODEL_NAME": "trashcan_classifier",
+        "MODEL_VERSION": "v3",
+        "MODEL_PATH": "assets/trashcan_cls_v3.pb"
+    },
+    {
+        "MODEL_NAME": "trashcan_classifier",
+        "MODEL_VERSION": "v4",
+        "MODEL_PATH": "assets/trashcan_cls_v4.pb"
+    },
+    {
+        "MODEL_NAME": "trashcan_classifier",
+        "MODEL_VERSION": "v5",
+        "MODEL_PATH": "assets/trashcan_cls_v5.pb"
+    },
+    {
+        "MODEL_NAME": "trashcan_classifier",
+        "MODEL_VERSION": "v6",
+        "MODEL_PATH": "assets/trashcan_cls_v6.pb"
+    },
+    {
+        "MODEL_NAME": "trashcan_classifier",
+        "MODEL_VERSION": "v7",
+        "MODEL_PATH": "assets/trashcan_cls_v7.pb"
+    },
+    {
+        "MODEL_NAME": "trashcan_classifier",
+        "MODEL_VERSION": "v8",
+        "MODEL_PATH": "assets/trashcan_cls_v8.pb"
+    },
+    {
+        "MODEL_NAME": "trashcan_classifier",
+        "MODEL_VERSION": "v9",
+        "MODEL_PATH": "assets/trashcan_cls_v9.pb"
+    },
+    {
+        "MODEL_NAME": "trashcan_classifier",
+        "MODEL_VERSION": "v10",
+        "MODEL_PATH": "assets/trashcan_cls_v10.pb"
+    }
+]

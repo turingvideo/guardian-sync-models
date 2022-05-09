@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class SyncModelsConfig(AppConfig):
+class ModelConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'sync_models'
+    name = 'model'

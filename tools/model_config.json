@@ -1,0 +1,10 @@
+{
+    "id": 0,
+    "mode": "on",
+    "algos": "fire",
+    "detect_params": {
+
+    },
+    "region": "0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0",
+    "uri": "/Users/liuxushun/nxtest.mp4"
+}

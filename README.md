@@ -1,18 +1,23 @@
-# Turing Template
+tools:
 
-Template repository for Python, including **PR template**, **issue template**, **branch protection settings** and recommended practices.
+test.py:  test sync models to local, test local model upload to cloud
+1、 python test.py  ----test download single model and upload single model
+2、 python test.py -u  ----add upload all models to cloud
+3、 python test.py -d  ----add download all models from cloud
+4、 python test.py -u -d ----add upload and download models
 
-## Recommended Practices
+model_config.py: generte model name, version, save path mapping relationship to name_path_map.json, need move name_path_map.json to base_dir
+additional_model_settings.json: user add new model not in model_config.py
+model_config.json: user modify model settings in model_config.py
+local_example.py: nextcloud api function test case code
 
-Per the requirement of SOC2 compliance, when you create a new repo, you need:
 
-1. Add a pull request template to your repo. You can either use this template when you create repo OR copy `.github/PULL_REQUEST_TEMPLATE.md` to your repo and customize it.
-2. Protect your default branch (`Require pull request reviews before merging` is required).
-3. Add a descirption for your repo
-4. (Recommended) Add a codeowner to your repo. You can either use this template when you create repo OR copy `.github/CODEOWNER` to your repo and customize it.
+dev.evns:
+required environment variables
 
-Resources:
 
-1. [Creating a pull request template for your repository](https://docs.github.com/en/github/building-a-strong-community/creating-a-pull-request-template-for-your-repository)
-2. [Managing a branch protection rule](https://docs.github.com/en/github/administering-a-repository/managing-a-branch-protection-rule)
-3. [About code owners](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners#example-of-a-codeowners-file)
+web api:
+overlord/user/login: just response login
+scv/s3url/model/<str:type>/<str:project>/<str:name>: return download or upload url
+download/<str:project>/<str:name>: download model from nextcloud
+upload/<str:project>/<str:name>': upload model to nextcloud

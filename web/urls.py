@@ -13,9 +13,14 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.contrib import admin
 from django.urls import path
 
+from model.views import login, s3_url, download, upload
+
+
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('overlord/user/login', login),
+    path('scv/s3url/model/<str:type>/<str:project>/<str:name>', s3_url),
+    path('download/<str:project>/<str:name>', download),
+    path('upload/<str:project>/<str:name>', upload),
 ]
