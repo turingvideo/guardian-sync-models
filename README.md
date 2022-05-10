@@ -45,7 +45,7 @@ json:
 #### https://cv.turingvideo.cn/scv/s3url/model/{type}/{project}/{name}
 ***request***  
 method: GET  
-***response***
+***response***  
 if type == download, return  
 ```
 {
@@ -66,13 +66,13 @@ if type == upload, return
 }
 ```
 
-#### https://cv.turingvideo.cn/download/\< str:project >/\< str:name >
+#### https://cv.turingvideo.cn/download/{project}/{name}
 ***request***  
 method: GET  
 ***response***  
 open('xxx', 'rb')  
 
-#### https://cv.turingvideo.cn/upload/\< str:project >/\< str:name >
+#### https://cv.turingvideo.cn/upload/{project}/{name}
 ***request***  
 method: POST  
 fields:  
