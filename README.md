@@ -44,10 +44,12 @@ https://cv.turingvideo.cn/overlord/user/login
 ### request
 method: POST  
 json:  
-    {
-        'email': 'guardian+m3@turingvideo.com',
-        'password': ')S1I!2<:Uq=j'
-    }
+``` 
+{
+    'email': 'guardian+m3@turingvideo.com',
+    'password': ')S1I!2<:Uq=j'
+}
+```
 ### response
 200  
 
@@ -59,20 +61,24 @@ https://cv.turingvideo.cn/scv/s3url/model/{type}/{project}/{name}
 method: GET  
 ### response
 type == download  
-    {
-        'ret': {
-            'url': url
-        }
+```
+{
+    'ret': {
+        'url': url
     }
+}
+```
 type == upload  
-    {
-        'ret': {
-            'url': {
-                'url': url,
-                'fields': {}
-            }
+```
+{
+    'ret': {
+        'url': {
+            'url': url,
+            'fields': {}
         }
     }
+}
+```
 
 ### uri
 ```
@@ -90,10 +96,10 @@ https://cv.turingvideo.cn/upload/<str:project>/<str:name>
 ### request
 method: POST  
 fields:  
-
-    {
-        'file': open(file_name, 'rb')
-    }
-
+```
+{
+    'file': open(file_name, 'rb')
+}
+```
 ### response
 200
