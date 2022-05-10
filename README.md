@@ -90,8 +90,10 @@ https://cv.turingvideo.cn/upload/<str:project>/<str:name>
 ### request
 method: POST  
 fields:  
+
     {
         'file': open(file_name, 'rb')
     }
+
 ### response
 200
