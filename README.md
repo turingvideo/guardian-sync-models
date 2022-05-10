@@ -1,56 +1,58 @@
 ## tools
 
 ### test.py
-test sync models to local, test local model upload to cloud
-`python test.py`
-test download single model and upload single model
-`python test.py -u`
-add upload all models to cloud
-`python test.py -d`
-add download all models from cloud
-`python test.py -u -d`
-add upload and download models
+test sync models to local, test local model upload to cloud  
+`python test.py`  
+test download single model and upload single model  
+`python test.py -u`  
+add upload all models to cloud  
+`python test.py -d`  
+add download all models from cloud  
+`python test.py -u -d`  
+add upload and download models  
 
 ### model_config.py
-generte model name, version, save path mapping relationship to ***name_path_map.json***, need move ***name_path_map.json*** to base_dir
+generte model name, version, save path mapping relationship to ***name_path_map.json***, need move ***name_path_map.json*** to base_dir  
 
 ### additional_model_settings.json
-user add new model not in model_config.py
+user add new model not in model_config.py  
 
 ### model_config.json
-user modify model settings in model_config.py
+user modify model settings in model_config.py  
 
 ### local_example.py
-nextcloud api function test case code
+nextcloud api function test case code  
 
 
 ## dev.evns
-required environment variables
+required environment variables  
 
 
 ## web api
+### uri
 `https://cv.turingvideo.cn/overlord/user/login`
 ### request
-method: POST
-json:
+method: POST  
+json:  
 {
     'email': 'guardian+m3@turingvideo.com',
     'password': ')S1I!2<:Uq=j'
 }
 ### response
-200
+200  
 
+### uri
 `https://cv.turingvideo.cn/scv/s3url/model/{type}/{project}/{name}`
 ### request
-method: GET
+method: GET  
 ### response
-type == 'download'
+type == download  
 {
     'ret': {
         'url': url
     }
 }
-type == 'upload'
+type == upload  
 {
     'ret': {
         'url': {
@@ -60,15 +62,17 @@ type == 'upload'
     }
 }
 
+### uri
 `https://cv.turingvideo.cn/download/<str:project>/<str:name>`
 ### request
-method: GET
+method: GET  
 ### response
-open('xxx', 'rb')
+open('xxx', 'rb')  
 
+### uri
 `https://cv.turingvideo.cn/upload/<str:project>/<str:name>`
 ### request
-method: POST
+method: POST  
 fields = {
     'file': open(file_name, 'rb')
 }
