@@ -1,14 +1,14 @@
-## tools:
+## tools
 
 ### test.py
 test sync models to local, test local model upload to cloud
-+ `python test.py`
+`python test.py`
 test download single model and upload single model
-+ `python test.py -u`
+`python test.py -u`
 add upload all models to cloud
-+ `python test.py -d`
+`python test.py -d`
 add download all models from cloud
-+ `python test.py -u -d`
+`python test.py -u -d`
 add upload and download models
 
 ### model_config.py
@@ -28,34 +28,49 @@ nextcloud api function test case code
 required environment variables
 
 
-## web api:
-|uri|method|request|response|
-|---|---|---|---|
-|https://cv.turingvideo.cn/overlord/user/login|POST|
+## web api
+`https://cv.turingvideo.cn/overlord/user/login`
+### request
+method: POST
+json:
 {
     'email': 'guardian+m3@turingvideo.com',
     'password': ')S1I!2<:Uq=j'
-}|200|
-|https://cv.turingvideo.cn/scv/s3url/model/{type}/{project}/{name}|GET||
-'download':
-    {
-        'ret': {
-            'url': url
+}
+### response
+200
+
+`https://cv.turingvideo.cn/scv/s3url/model/{type}/{project}/{name}`
+### request
+method: GET
+### response
+type == 'download'
+{
+    'ret': {
+        'url': url
+    }
+}
+type == 'upload'
+{
+    'ret': {
+        'url': {
+            'url': url,
+            'fields': {}
         }
     }
-'upload':
-    {
-        'ret': {
-            'url': {
-                'url': url,
-                'fields': {}
-            }
-        }
-    }
-|
-|https://cv.turingvideo.cn/download/<str:project>/<str:name>|GET||open('xxx', 'rb')|
-|https://cv.turingvideo.cn/upload/<str:project>/<str:name>|POST|
+}
+
+`https://cv.turingvideo.cn/download/<str:project>/<str:name>`
+### request
+method: GET
+### response
+open('xxx', 'rb')
+
+`https://cv.turingvideo.cn/upload/<str:project>/<str:name>`
+### request
+method: POST
 fields = {
     'file': open(file_name, 'rb')
 }
-|200|
+### response
+200
