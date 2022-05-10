@@ -2,21 +2,13 @@
 
 ### test.py
 test sync models to local, test local model upload to cloud  
-```
-python test.py
-```  
+`python test.py`   
 test download single model and upload single model  
-```
-python test.py -u
-```  
+`python test.py -u`   
 add upload all models to cloud  
-```
-python test.py -d
-```  
+`python test.py -d`  
 add download all models from cloud  
-```
-python test.py -u -d
-```  
+`python test.py -u -d`  
 add upload and download models  
 
 ### model_config.py
@@ -38,9 +30,7 @@ required environment variables
 
 ## web api
 ### uri
-```
-https://cv.turingvideo.cn/overlord/user/login
-```
+`https://cv.turingvideo.cn/overlord/user/login`  
 ### request
 method: POST  
 json:  
@@ -54,13 +44,11 @@ json:
 200  
 
 ### uri
-```
-https://cv.turingvideo.cn/scv/s3url/model/{type}/{project}/{name}
-```
+`https://cv.turingvideo.cn/scv/s3url/model/{type}/{project}/{name}`  
 ### request
 method: GET  
 ### response
-type == download  
+if type == download, return  
 ```
 {
     'ret': {
@@ -68,7 +56,7 @@ type == download
     }
 }
 ```
-type == upload  
+if type == upload, return  
 ```
 {
     'ret': {
@@ -81,18 +69,14 @@ type == upload
 ```
 
 ### uri
-```
-https://cv.turingvideo.cn/download/<str:project>/<str:name>
-```
+`https://cv.turingvideo.cn/download/<str:project>/<str:name>`  
 ### request
 method: GET  
 ### response
 open('xxx', 'rb')  
 
 ### uri
-```
-https://cv.turingvideo.cn/upload/<str:project>/<str:name>
-```
+`https://cv.turingvideo.cn/upload/<str:project>/<str:name>`  
 ### request
 method: POST  
 fields:  
