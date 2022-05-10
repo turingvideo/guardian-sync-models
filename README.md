@@ -29,9 +29,8 @@ required environment variables
 
 
 ## web api
-#### uri
-`https://cv.turingvideo.cn/overlord/user/login`  
-#### request
+#### https://cv.turingvideo.cn/overlord/user/login
+***request***  
 method: POST  
 json:  
 ``` 
@@ -40,14 +39,13 @@ json:
     'password': ')S1I!2<:Uq=j'
 }
 ```
-#### response
+***response***  
 200  
 
-#### uri
-`https://cv.turingvideo.cn/scv/s3url/model/{type}/{project}/{name}`  
-#### request
+#### https://cv.turingvideo.cn/scv/s3url/model/{type}/{project}/{name}
+***request***  
 method: GET  
-#### response
+***response***
 if type == download, return  
 ```
 {
@@ -68,16 +66,14 @@ if type == upload, return
 }
 ```
 
-#### uri
-`https://cv.turingvideo.cn/download/<str:project>/<str:name>`  
-#### request
+#### https://cv.turingvideo.cn/download/<str:project>/<str:name>
+***request***  
 method: GET  
-#### response
+***response***  
 open('xxx', 'rb')  
 
-#### uri
-`https://cv.turingvideo.cn/upload/<str:project>/<str:name>`  
-#### request
+#### https://cv.turingvideo.cn/upload/<str:project>/<str:name>
+***request***  
 method: POST  
 fields:  
 ```
@@ -85,5 +81,5 @@ fields:
     'file': open(file_name, 'rb')
 }
 ```
-#### response
+***response***
 200
