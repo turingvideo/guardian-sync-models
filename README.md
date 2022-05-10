@@ -66,13 +66,13 @@ if type == upload, return
 }
 ```
 
-#### https://cv.turingvideo.cn/download/\<str:project>/\<str:name>
+#### https://cv.turingvideo.cn/download/\< str:project >/\< str:name >
 ***request***  
 method: GET  
 ***response***  
 open('xxx', 'rb')  
 
-#### https://cv.turingvideo.cn/upload/\<str:project>/\<str:name>
+#### https://cv.turingvideo.cn/upload/\< str:project >/\< str:name >
 ***request***  
 method: POST  
 fields:  
